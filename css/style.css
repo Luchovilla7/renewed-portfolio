@@ -25,7 +25,7 @@ html {
 
 body {
     background: var(--bg-color);
-    color: var(--text-color) ;
+    color: var(--text-color);
 }
 
 section {
@@ -382,6 +382,7 @@ span {
 
 @media (max-width: 991px) {
     .header {
+        width: 100vw;
         padding: 2rem 3%;
     }
 
@@ -402,6 +403,7 @@ span {
     }
 
     .footer {
+        width: 100vw;
         padding: 2rem 3%;
     }
 }
