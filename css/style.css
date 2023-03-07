@@ -380,6 +380,35 @@ span {
     color: var(--second-bg-color);
 }
 
+/* botón de WhatsApp*/
+
+.whatsapp img {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 25px;
+    z-index: 99;
+}
+
+/* botón de Cafecito App*/
+
+.coffeApp img {
+    width: 60px;
+    position: fixed;
+    z-index: 99;
+    bottom: 100px;
+    right: 25px;
+}
+
+.whatsapp img:hover, 
+.coffeApp img:hover {
+    transition: .2s ease;
+    transform: scale(1.1);
+}
+
+/* Breakpoints */
+
 @media (max-width: 991px) {
     .header {
         width: 100vw;
@@ -405,6 +434,14 @@ span {
     .footer {
         width: 100vw;
         padding: 2rem 3%;
+    }
+
+    .coffeApp img {
+        display: none;
+    }
+
+    .whatsapp img {
+        right: 5px;
     }
 }
 
