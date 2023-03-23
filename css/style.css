@@ -286,11 +286,14 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    font-weight: bold;
     margin:  .3rem 0 1rem;
+    color: #000;
 }
 
 .portfolio-layer a {
@@ -306,6 +309,15 @@ span {
 .portfolio-layer a i {
     font-size: 2rem;
     color: var(--text-color);
+}
+
+.portfolio-layer div {
+    display: inline-block;
+}
+
+.portfolio-layer div i {
+    font-size: 32px;
+    color: #000;
 }
 
 .contact h2 {
@@ -384,8 +396,7 @@ span {
 
 .whatsapp img {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 75px;
     bottom: 25px;
     right: 25px;
     z-index: 99;
@@ -394,7 +405,8 @@ span {
 /* botón de Cafecito App*/
 
 .coffeApp img {
-    width: 60px;
+    margin-bottom: 5px;
+    width: 75px;
     position: fixed;
     z-index: 99;
     bottom: 100px;
