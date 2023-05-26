@@ -434,7 +434,7 @@ span {
 @media (max-width: 1403px) {
     .header {
         width: 100vw;
-        padding: 2rem 3%;
+        padding: 2rem 3% .2rem;
     }
 
     .btn:nth-child(7) {
