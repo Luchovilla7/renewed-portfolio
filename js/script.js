@@ -46,8 +46,8 @@ ScrollReveal({
     delay: 200 
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .courses-container, .portfolio-box, .contact form, .about-img', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content, .heading, .book-container', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .ebook-box, .portfolio-box, .contact form, .about-img', { origin: 'bottom' });
 //ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 //ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
