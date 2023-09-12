@@ -210,13 +210,13 @@ span {
 
 .service-container .service-box{
     flex: 1 1 30rem;
-    border-radius: 2rem;
+    padding-top: 6rem;
     text-align: center;
     transition: .5s ease;
 }
 
 .service-box img {
-    width: 380px;
+    width: 350px;
 }
 
 .service-box img:hover {
@@ -551,10 +551,6 @@ span {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
-    }
-
-    .service-box img {
-        width: 180px;
     }
 
     .contact form .input-box input {
