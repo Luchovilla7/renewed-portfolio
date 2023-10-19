@@ -313,6 +313,11 @@ span {
     color: #000;
 }
 
+.portfolio-layer div img {
+    width: 32px;
+    margin-inline: 5px;
+}
+
 .btn-more {
     margin: 7rem auto 0;
     display: flex;
