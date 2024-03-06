@@ -54,7 +54,7 @@ ScrollReveal().reveal('.home-img, .ebook-box, .portfolio-box, .contact form, .ab
 /*typed js*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Content Creator', 'Blogger'],
+    strings: ['Frontend Developer', 'Content Creator', 'Web Designer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
